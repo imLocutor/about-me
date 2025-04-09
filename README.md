@@ -1,149 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Your Name | GitHub Profile</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-    body {
-      font-family: 'Roboto Mono', monospace;
-      background: #0d1117;
-      color: #c9d1d9;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-    .header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .avatar {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 5px solid #38C172;
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(56, 193, 114, 0.7); }
-      70% { box-shadow: 0 0 0 15px rgba(56, 193, 114, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(56, 193, 114, 0); }
-    }
-    .social-icons {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin: 1rem 0;
-    }
-    .social-icon {
-      transition: transform 0.3s;
-    }
-    .social-icon:hover {
-      transform: scale(1.2);
-    }
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 1rem;
-      margin: 2rem 0;
-    }
-    .stat-card {
-      background: #161b22;
-      padding: 1rem;
-      border-radius: 6px;
-      text-align: center;
-      transition: transform 0.3s;
-    }
-    .stat-card:hover {
-      transform: translateY(-5px);
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <img src="https://avatars.githubusercontent.com/u/YOUR_GITHUB_ID?v=4" alt="Avatar" class="avatar">
-      <h1>Your Name</h1>
-      <p>Passionate Developer | Open Source Enthusiast</p>
-      <div class="social-icons">
-        <a href="https://github.com/yourusername" target="_blank">
-          <img src="https://img.icons8.com/fluent/48/000000/github.png" width="32" class="social-icon"/>
-        </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">
-          <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" width="32" class="social-icon"/>
-        </a>
-        <a href="https://twitter.com/yourhandle" target="_blank">
-          <img src="https://img.icons8.com/fluent/48/000000/twitter.png" width="32" class="social-icon"/>
-        </a>
-      </div>
-    </div>
+<div align="center">
+  
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi,%20I%20am%20Lucas&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20e%20Entusiasta%20de%20Tecnologia&descAlignY=60)
 
-    <div class="stats">
-      <div class="stat-card">
-        <h3>Repositories</h3>
-        <p id="repo-count">Loading...</p>
-      </div>
-      <div class="stat-card">
-        <h3>Followers</h3>
-        <p id="followers-count">Loading...</p>
-      </div>
-      <div class="stat-card">
-        <h3>Stars</h3>
-        <p id="stars-count">Loading...</p>
-      </div>
-    </div>
+<!-- GIF animado central -->
+<img src="https://raw.githubusercontent.com/Nattiih/Nattiih/main/giphy.gif" width="200"/>
 
-    <h2>🚀 My Tech Stack</h2>
-    <div id="tech-stack">
-      <!-- Will be populated by JavaScript -->
-    </div>
-  </div>
+<!-- Stats com efeito gradiente -->
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=seuuser&show_icons=true&theme=radical&hide_border=true&bg_color=00000000)](https://github.com/seuuser)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seuuser&layout=compact&theme=radical&hide_border=true&bg_color=00000000)](https://github.com/seuuser)
 
-  <script>
-    // Fetch GitHub stats
-    async function fetchGitHubStats() {
-      try {
-        const response = await fetch('https://api.github.com/users/yourusername');
-        const data = await response.json();
-        
-        document.getElementById('repo-count').textContent = data.public_repos;
-        document.getElementById('followers-count').textContent = data.followers;
-        
-        // Fetch starred repos count
-        const starsResponse = await fetch('https://api.github.com/users/yourusername/starred');
-        const starsData = await starsResponse.json();
-        document.getElementById('stars-count').textContent = starsData.length;
-      } catch (error) {
-        console.error('Error fetching GitHub data:', error);
-      }
-    }
-    
-    // Tech stack icons
-    const techStack = [
-      { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
-      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
-      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-      { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' }
-    ];
-    
-    function renderTechStack() {
-      const container = document.getElementById('tech-stack');
-      container.innerHTML = techStack.map(tech => `
-        <div style="display: inline-block; text-align: center; margin: 10px;">
-          <img src="${tech.icon}" width="48" height="48" alt="${tech.name}" />
-          <p>${tech.name}</p>
-        </div>
-      `).join('');
-    }
-    
-    // Initialize
-    fetchGitHubStats();
-    renderTechStack();
-  </script>
-</body>
-</html>
+<!-- Snake animation -->
+![Snake animation](https://github.com/seuuser/seuuser/blob/output/github-contribution-grid-snake-dark.svg)
+
+<!-- Cards animados -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seuuser&repo=repositorio1&theme=radical" alt="Repo1" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=seuuser&repo=repositorio2&theme=radical" alt="Repo2" width="400"/>
+</div>
+
+<!-- Tecnologias com ícones animados -->
+<h2>🛠 Tecnologias e Ferramentas</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</p>
+
+<!-- Redes sociais com hover -->
+<h2>📫 Conecte-se comigo</h2>
+<p align="center">
+  <a href="https://linkedin.com/in/seuuser" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/seuuser" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="mailto:seu@email.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+</p>
+
+<!-- Contador de visitas -->
+<p align="center"> 
+  <img src="https://profile-counter.glitch.me/seuuser/count.svg" alt="Visitas" />
+</p>
+
+<!-- Mensagem flutuante -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=38C172&width=435&lines=Desenvolvedor+Full+Stack;Apaixonado+por+Tecnologia;Sempre+Aprendendo+Coisas+Novas" alt="Typing SVG" />
+</div>
+
+</div>
