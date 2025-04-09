@@ -259,6 +259,26 @@ Vim Script               1 repo              █░░░░░░░░░░�
 
 
  Last Updated on 09/04/2025 19:37:09 UTC
+
+<!-- Contato -->
+<h2>📫 Connect with me</h2>
+<div style="display: flex; justify-content: center; gap: 1.5rem; margin: 1.5rem 0;">
+  <a href="mailto:locutormp@gmail.com">
+    <div class="gmail-btn">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="24">
+      <span style="color: white;">Gmail</span>
+    </div>
+  </a>
+</div>
+
+<!-- Contador de visitas -->
+<p align="center"><img src="https://profile-counter.glitch.me/imLocutor/count.svg" alt="Visitas" /></p>
+
+<!-- Mensagem flutuante -->
+<div style="margin-top: 2rem;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=38C172&width=500&lines=Back-end+Developer;CyberSecurity+Specialist;High-level+Programming+Expert;Always+Learning+New+Things" alt="Typing SVG">
+</div>
+
 <!--END_SECTION:waka-->
 </details>
 
