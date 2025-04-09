@@ -1,6 +1,6 @@
 <div align="center">
   
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi,%20I%20am%20Lucas&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20e%20Entusiasta%20de%20Tecnologia&descAlignY=60)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Olá,%20Eu%20sou%20Gabriel&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20e%20Entusiasta%20de%20Tecnologia&descAlignY=60)
 
 <!-- GIF animado central -->
 <img src="https://raw.githubusercontent.com/Nattiih/Nattiih/main/giphy.gif" width="200"/>
@@ -10,7 +10,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seuuser&layout=compact&theme=radical&hide_border=true&bg_color=00000000)](https://github.com/seuuser)
 
 <!-- Snake animation -->
-![Snake animation](https://github.com/seuuser/seuuser/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/SEU_USERNAME/SEU_USERNAME/blob/output/github-contribution-grid-snake.svg)
 
 <!-- Cards animados -->
 <div align="center">
