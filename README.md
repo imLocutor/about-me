@@ -5,9 +5,30 @@
 <!-- GIF animado central -->
 <img src="https://raw.githubusercontent.com/Nattiih/Nattiih/main/giphy.gif" width="200"/>
 
-<!-- Stats com efeito gradiente -->
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=imLocutor&show_icons=true&theme=radical&hide_border=true&bg_color=00000000)](https://github.com/imLocutor)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imLocutor&layout=compact&theme=radical&hide_border=true&bg_color=00000000)](https://github.com/imLocutor)
+<!-- Seção de Destaques -->
+<h2>🌟 Technical Highlights</h2>
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin: 1rem 0;">
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 10px;">
+    <h3>Systems Development</h3>
+    <p>Optimized low-level systems with C++/Assembly</p>
+  </div>
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 10px;">
+    <h3>Security Research</h3>
+    <p>2300+ hours of vulnerability analysis</p>
+  </div>
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 10px;">
+    <h3>Database Architecture</h3>
+    <p>Designed high-performance SQL solutions</p>
+  </div>
+</div>
+
+<!-- Development Journey Section -->
+<h2>🚀 My Development Journey</h2>
+<p>
+  <strong>273,000+</strong> lines of systems code written<br>
+  <strong>76+</strong> completed projects (public and private)<br>
+  <strong>2300+</strong> hours of security research
+</p>
 
 <!-- Snake animation -->
 ![Snake animation](https://github.com/imLocutor/imLocutor/blob/output/github-contribution-grid-snake.svg)
@@ -23,7 +44,7 @@
 </div>
 
 <!-- Tecnologias com ícones animados -->
-<h2>🛠 technologies and Tools</h2>
+<h2>🛠 Core Technologies</h2>
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
@@ -34,6 +55,14 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</p>
+
+<!-- Expertise Section -->
+<h2>🔍 Areas of Expertise</h2>
+<p align="center">
+  <strong>Systems Programming</strong> • <strong>Reverse Engineering</strong><br>
+  <strong>Database Architecture</strong> • <strong>Security Analysis</strong><br>
+  <strong>Performance Optimization</strong> • <strong>High-Level Debugging</strong>
 </p>
 
 <!-- Contato -->
@@ -51,7 +80,7 @@
 
 <!-- Mensagem flutuante -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=38C172&width=435&lines=Back-end+Developer;CyberSecurity+Specialist;High-level+programming+expert;Always+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=38C172&width=435&lines=Back-end+Developer;CyberSecurity+Specialist;Low-level+Programming+Expert;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
 </div>
