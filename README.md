@@ -167,10 +167,6 @@
 </div>
 
 <details>
-  <summary>GitHub Metrics</summary>
-
-<!-- ![Metrics](https://metrics.lecoq.io/yutkat) -->
-[![Metrics](https://github.com/yutkat/yutkat/blob/main/images/github-metrics.svg)](https://github.com/lowlighter/metrics)
 
 
 </details>
